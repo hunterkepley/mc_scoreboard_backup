@@ -3,7 +3,7 @@ import os
 import time
 
 def main():
-    print("COPYIN THAT SCOREBOARD OVER INTO THE SERVER LUIGUS")
+    print("COPYIN THE SCOREBOARD OVER INTO THE SERVER")
     try:
         copyfile("scoreboard_backup/scoreboard.dat.bak", "data/scoreboard.dat")
     except:
@@ -13,10 +13,10 @@ def main():
             print("scoreboard_backup directory exists in location 'scoreboard_backup")
         print("Scoreboard file not found.")
 
-    print("Luigi this shit will take a minute to update, have a good day, it's loaded xd lmao hehe content lul 4head just build nice keyboard")
+    print("This will take a minute to update")
 
     while(True):
-        print("Backin up the damn scoreboard mr lugi")
+        print("Backing up the scoreboard")
         try:
             copyfile("data/scoreboard.dat", "scoreboard_backup/scoreboard.dat.bak")
         except:
